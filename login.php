@@ -10,7 +10,7 @@
         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&family=Montserrat:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
     <title>Trashdeep</title>
-    <link rel="icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="icon" href="asset/foto/logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style/login.css">
@@ -45,7 +45,7 @@
           </div>
           <button type="submit" class="btn-submit m-2">Masuk</button>
           <div class="col-sm-12 pt-12 regist text-center">
-            <a>Belum Punya Akun?</a><a href="daftar.php"> Daftar</a>
+            <a>Belum Punya Akun?</a><a href="daftar.html"> Daftar</a>
         </div>
       </form>
   </div>
