@@ -8,7 +8,7 @@ $query = mysqli_query($conn,"SELECT * from tb_masyarakat where username = '$user
 $result = mysqli_num_rows($query);
 
 if($result > 0 ){
-    header("location: .. /app/beranda.php");
+    header("location: ../home.php");
 }
 else{
     header("location:../login.php?pesan=error");

@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(rgba(55, 146, 55, 0), #42855b);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+.btn-submit {
+  color: black;
+  background: #42855b;
+  border: 1px solid #42855b;
+  border-radius: 20px;
+  width: 159px;
+  height: 30px;
+  left: 106px;
+  top: 617px;
+  border-radius: 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.box-daftar {
+  width: 325px;
+  height: 283px;
+  left: 25px;
+  top: 437px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin: 50px auto;
+}
+
+/*.label-username,
+    .label-password {
+      width: 117px;
+      height: 28px;
+      left: 69px;
+      top: 398px;
+      */
