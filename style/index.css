@@ -1,0 +1,36 @@
+body {
+  background: linear-gradient(rgba(55, 146, 55, 0), #42855b);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+.btn-user {
+  width: 250px;
+  height: 47px;
+  left: 61px;
+  top: 478px;
+  margin: 5px;
+  background: #42855b;
+  border-radius: 15px;
+}
+
+.btn-admin {
+  box-sizing: border-box;
+  width: 250px;
+  height: 47px;
+  left: 61px;
+  top: 531px;
+  border: 3px solid #42855b;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 15px;
+}
+
+/*.petugas {
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+    color: #000000;
+  }
+  */
