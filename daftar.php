@@ -10,10 +10,10 @@
         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&family=Montserrat:wght@400;500;600;700;800&display=swap"
         rel="stylesheet">
     <title>Trashdeep</title>
-    <link rel="icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="icon" href="static/asset/foto/logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="style/login.css">
+    <link rel="stylesheet" href="style/daftar.css">
 </head>
 
 <body>
@@ -26,30 +26,35 @@
         </div>
     </nav>
 
-    <div class="d-flex justify-content-center text-center box-login" >
-      <form action="auth/auth.php" method="POST" >
-          <div class="form-group my-2">
+    <div class="d-flex justify-content-center = box-daftar">
+      <form action="auth/auth.php" method="POST"> 
+        <div class="form-group my-3">
               <label for="username" class="label-username">Nama Pengguna:</label>
               <input type="text" class="form-control username" id="username" placeholder="" name="username" />
-          </div>
-          <div class="form-group mb-2">
-
-              <div class="pw">
-                  <label for="password" class="label-password">Kata Sandi:</label>
-                  <input type="password" class="form-control password" id="password" name="password" />
-              </div>
-              
-          </div>
-          <div class="col-sm-12 pt-12 regist text-end">
-              <a href="daftar.html">Lupa Kata Sandi?</a>
-          </div>
-          <button type="submit" class="btn-submit m-2">Masuk</button>
-          <div class="col-sm-12 pt-12 regist text-center">
-            <a>Belum Punya Akun?</a><a href="daftar.php"> Daftar</a>
         </div>
+        
+        <div class="form-group mb-3">
+              <div class="pw">
+                  <label for="no_telepon" class="label-password">No Telepon:</label>
+                  <input type="nono_telepon" class="form-control no_telepon" id="no_telepon" name="no" />
+        </div>
+        
+        <div class="form-group mb-3">
+                <div class="pw">
+                    <label for="password" class="label-password">Kata Sandi:</label>
+                    <input type="password" class="form-control password" id="password" name="password" />
+        </div>
+          </div>
+          <div class="col-sm-12 pt-1 regist">
+              <a href="login.html">Sudah Punya Akun</a>
+          </div>
+          <button type="submit" class="btn-submit m-5">Submit</button>
+
       </form>
+
   </div>
 </div>
+
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
