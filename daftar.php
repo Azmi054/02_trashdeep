@@ -27,7 +27,7 @@
     </nav>
 
     <div class="d-flex justify-content-center = box-daftar">
-      <form action="auth/auth.php" method="POST"> 
+      <form action="auth/proses.php" method="POST"> 
         <div class="form-group my-3">
               <label for="username" class="label-username">Nama Pengguna:</label>
               <input type="text" class="form-control username" id="username" placeholder="" name="username" />
