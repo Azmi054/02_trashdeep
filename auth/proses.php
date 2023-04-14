@@ -11,8 +11,7 @@ $query = "INSERT INTO tb_masyarakat (id_masyarakat, username, password, no_telep
 $result = mysqli_query($conn, $query);
 
 if($result){
-    echo 'berhasil';
-    // header("location: ../login.php");
+    header("location: ../login.php");
 }
 else{
     header("location:../login.php?pesan=error");

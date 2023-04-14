@@ -36,7 +36,7 @@
         <div class="form-group mb-3">
               <div class="pw">
                   <label for="no_telepon" class="label-password">No Telepon:</label>
-                  <input type="nono_telepon" class="form-control no_telepon" id="no_telepon" name="no" />
+                  <input type="nono_telepon" class="form-control no_telepon" id="no_telepon" name="no_telepon" />
         </div>
         
         <div class="form-group mb-3">
