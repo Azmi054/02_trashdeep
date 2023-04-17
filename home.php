@@ -68,7 +68,7 @@
       </div>
       <div class="row">
         <div class="col mb-4">
-        <a href="edukasi.html" style ="text-decoration :none">
+        <a href="edukasi.php" style ="text-decoration :none">
           <div class="card">
             <h5 class="card-title m-3">Edukasi</h5>
             <div class="row no-gutters">
