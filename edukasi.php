@@ -35,34 +35,25 @@
       </div>
     </nav>
 
-    <div class="row">
-        <div class="col mb-4">
-        <a href="edukasi.php" style ="text-decoration :none">
-          <div class="card">
-            <h5 class="card-title m-3">Tips & Tricks</h5>
-            <div class="row no-gutters">
-              <div class="col-md-4 text-center">
-                <p>Lihat</p>
-              </div>
-            </div>
-          </div>
-        </a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col mb-4">
-        <a href="edukasi.php" style ="text-decoration :none">
-          <div class="card">
-            <h5 class="card-title m-3">Tutorial</h5>
-            <div class="row no-gutters">
-              <div class="col-md-4 text-center">
-                <p>Isi dengan konten yang diinginkan</p>
-              </div>
-            </div>
-          </div>
-        </a>
-        </div>
-      </div>
+
+    <footer>
+    <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Judul Informasi</h5>
+      <p class="card-text">Isi informasi yang ingin ditampilkan</p>
+      <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Judul Informasi</h5>
+      <p class="card-text">Isi informasi yang ingin ditampilkan</p>
+      <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+    </div>
+</div>
+    </footer>
+
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
