@@ -17,7 +17,7 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style/laporan.css" />
+    <link rel="stylesheet" href="style/edukasi.css" />
   </head>
 
   <body>
@@ -34,6 +34,35 @@
         </a>
       </div>
     </nav>
+
+    <div class="row">
+        <div class="col mb-4">
+        <a href="edukasi.php" style ="text-decoration :none">
+          <div class="card">
+            <h5 class="card-title m-3">Tips & Tricks</h5>
+            <div class="row no-gutters">
+              <div class="col-md-4 text-center">
+                <p>Lihat</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col mb-4">
+        <a href="edukasi.php" style ="text-decoration :none">
+          <div class="card">
+            <h5 class="card-title m-3">Tutorial</h5>
+            <div class="row no-gutters">
+              <div class="col-md-4 text-center">
+                <p>Isi dengan konten yang diinginkan</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        </div>
+      </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
