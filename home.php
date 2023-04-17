@@ -54,7 +54,7 @@
     <div class="container">
       <div class="row">
         <div class="col mb-4">
-          <a href="index.php" style ="text-decoration :none">
+          <a href="laporan.php" style ="text-decoration :none">
             <div class="card">
               <h5 class="card-title m-3">Lapor Sampah</h5>
               <div class="row no-gutters">
@@ -68,7 +68,7 @@
       </div>
       <div class="row">
         <div class="col mb-4">
-        <a href="index.php" style ="text-decoration :none">
+        <a href="edukasi.html" style ="text-decoration :none">
           <div class="card">
             <h5 class="card-title m-3">Edukasi</h5>
             <div class="row no-gutters">
