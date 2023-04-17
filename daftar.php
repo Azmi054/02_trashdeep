@@ -46,7 +46,7 @@
         </div>
           </div>
           <div class="col-sm-12 pt-1 regist">
-              <a href="login.html">Sudah Punya Akun</a>
+              <a href="login.phpx>Sudah Punya Akun</a>
           </div>
           <button type="submit" class="btn-submit m-5">Submit</button>
 
