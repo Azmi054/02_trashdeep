@@ -1,67 +1,35 @@
-<<<<<<< Updated upstream
-body {
-    font-family: "Montserrat", sans-serif;
-    background-color: #f5f5f5;
-  }
-  nav {
-    background-color: #42855b;
-    height: 70px;
-    border-radius: 0 0 10px 10px;
-  }
-  
-  .card {
-    background-color: #f7cac9;
-    color: black;
-    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
-  }
-  .card p {
-    color: black;
-  }
-  
-  .profile {
-    display: flex;
-    align-items: center;
-  }
-  
-  .profile img {
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  .profile h1 {
-    margin: 0;
-  }
-=======
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #f5f5f5;
+  background-color: #42855b;
 }
 nav {
   background-color: #42855b;
   height: 70px;
   border-radius: 0 0 10px 10px;
 }
-
-.card {
-  background-color: #f7cac9;
+.container h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
   color: black;
+}
+
+.navbar-brand {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.card-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  color: black;
+}
+.card {
+  background-color: #42855b;
   box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
 }
+
 .card p {
+  background-color: black;
+  padding: 5px 0;
   color: black;
 }
-
-.profile {
-  display: flex;
-  align-items: center;
-}
-
-.profile img {
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.profile h1 {
-  margin: 0;
-}
->>>>>>> Stashed changes
