@@ -26,31 +26,37 @@
 
   <body>
     <nav class="navbar bg-body-tertiary fixed-top">
-      <div class="container d-flex">
-        <a class="navbar-brand" href="index.php">
-          <img
-            src="assets/logo.png"
-            alt="trashdeep"
-            draggable="false"
-            width="48.81"
-            height="41"
-          />
-          trashdeep
-        </a>
-        <div class="ms-auto">
-          <i class="bi bi-bell btn" style="font-size: 23px"></i>
+        <div class="container ">
+          <a class="navbar-brand " href="#">
+            <img src="assets/logo.png" draggable="false" alt="Trashdeep"height="45">
+          </a>
+          <div class="d-flex align-items-center">
+            <a href="#" class="me-3"><i class="bi bi-person-circle fs-4"></i></a>
+            <a href="#" class="me-3"><i class="bi bi-bell fs-4"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-
+      </nav>
+      
     <div class="container mt-5 pt-5">
-      <div class="profile">
-        <img src="assets/orang.png" width="48.81" />
-        <h1>Ilham</h1>
-      </div>
-      <hr />
-    </div>
-
     <div class="container">
       <div class="row">
         <div class="col mb-4">
@@ -58,7 +64,7 @@
             <div class="card">
               <h5 class="card-title m-3">Lapor Sampah</h5>
               <div class="row no-gutters">
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-end">
                   <p>Buat Laporan</p>
                 </div>
               </div>
@@ -71,11 +77,6 @@
         <a href="edukasi.php" style ="text-decoration :none">
           <div class="card">
             <h5 class="card-title m-3">Edukasi</h5>
-            <div class="row no-gutters">
-              <div class="col-md-4 text-center">
-                <p>Isi dengan konten yang diinginkan</p>
-              </div>
-            </div>
           </div>
         </a>
         </div>
@@ -85,11 +86,6 @@
         <a href="index.php" style ="text-decoration :none">
           <div class="card">
             <h5 class="card-title m-3">Informasi</h5>
-            <div class="row no-gutters">
-              <div class="col-md-4 text-center">
-                <p>Isi dengan konten yang diinginkan</p>
-              </div>
-            </div>
           </div>
         </a>
         </div>
@@ -99,11 +95,6 @@
         <a href="index.php" style ="text-decoration :none">
           <div class="card">
             <h5 class="card-title m-3">Lokasi Terdekat pembuangan Sampah</h5>
-            <div class="row no-gutters">
-              <div class="col-md-4 text-center">
-                <p>Isi dengan konten yang diinginkan</p>
-              </div>
-            </div>
           </div>
         </a>
         </div>
