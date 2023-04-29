@@ -1,22 +1,16 @@
+body {
+  background-color: #42855b;
+  background: linear-gradient(300deg, rgba(55, 146, 55, 0), #42855b 100%);
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
 .card {
-  background-color: #f7cac9;
-  color: black;
-  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
-}
-.card p {
-  color: black;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
 }
 
-.profile {
-  display: flex;
-  align-items: center;
-}
-
-.profile img {
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.profile h1 {
-  margin: 0;
+.card:nth-child(1) {
+  background-color: #00fa9a;
 }
