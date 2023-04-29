@@ -26,7 +26,7 @@
         </div>
     </nav>
 
-    <div class="d-flex justify-content-center = box-daftar">
+    <div class="d-flex justify-content-center box-daftar">
       <form action="auth/proses.php" method="POST"> 
         <div class="form-group my-3">
               <label for="username" class="label-username">Nama Pengguna:</label>
@@ -37,22 +37,22 @@
               <div class="pw">
                   <label for="no_telepon" class="label-password">No Telepon:</label>
                   <input type="nono_telepon" class="form-control no_telepon" id="no_telepon" name="no_telepon" />
+              </div>
         </div>
         
         <div class="form-group mb-3">
                 <div class="pw">
                     <label for="password" class="label-password">Kata Sandi:</label>
                     <input type="password" class="form-control password" id="password" name="password" />
+                </div>
         </div>
-          </div>
-          <div class="col-sm-12 pt-1 regist">
-              <a href="login.phpx>Sudah Punya Akun</a>
-          </div>
-          <button type="submit" class="btn-submit m-5">Submit</button>
-
+        <div class="d-flex justify-content-center">
+            <button type="submit" class="btn-submit m-2">Masuk</button>
+        </div>
+        <div class="col-sm-12 pt-12 regist text-center">
+            <a>Sudah Punya Akun?</a><a href="login.php"> Masuk</a>
+        </div>
       </form>
-
-  </div>
 </div>
 
 
