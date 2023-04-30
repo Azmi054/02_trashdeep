@@ -14,21 +14,21 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
     <title>Trasndeep</title>
-    <link rel="icon" href="assets/logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="style/home.css" />
+    <link rel="icon" href="../assets/logo.png" type="image/x-icon" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+  <link rel="stylesheet" href="home.css">
   </head>
 
-  <body>
+  <body class="body">
     <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container ">
           <a class="navbar-brand " href="#">
-            <img src="assets/logo.png" draggable="false" alt="Trashdeep"height="45">
+            <img src="../assets/logo.png" draggable="false" alt="Trashdeep"height="50">
           </a>
           <div class="d-flex align-items-center">
             <a href="#" class="me-3"><i class="bi bi-person-circle fs-4"></i></a>
@@ -56,22 +56,25 @@
         </div>
       </nav>
       
-    <div class="container mt-5 pt-5">
-    <div class="container">
-      <div class="row">
-        <div class="col mb-4">
-          <a href="laporan.php" style ="text-decoration :none">
+      <div class="container mt-5 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col mb-4">
+            <a>
             <div class="card">
-              <h5 class="card-title m-3">Lapor Sampah</h5>
+              <div class="d-flex align-items-center">
+                <h5 class="card-title flex-grow-1">Lapor Sampah</h5>
+                <img src="assets/laporan.svg" alt="gambar" class="ml-auto">
+              </div>
               <div class="row no-gutters">
-                <div class="col-md-4 text-end">
-                  <p>Buat Laporan</p>
+                <div class="mx-2 tombol-laporan">
+                  <a href="laporan.php" class="btn btn-primary">Buat Laporan</a>
                 </div>
               </div>
             </div>
-          </a>
+            </a>
+          </div>
         </div>
-      </div>
       <div class="row">
         <div class="col mb-4">
         <a href="edukasi.php" style ="text-decoration :none">
@@ -100,6 +103,19 @@
         </div>
       </div>
     </div>
+    <nav class="navbar navbar-expand navbar-dark bg-utama fixed-bottom" style="background-color:#012e1d;">
+        <ul class="navbar-nav nav-justified w-100 d-flex align-items-center">
+            <li class="nav-item">
+                <a href="profil.php" class="nav-link mt-2"><i class="bi bi-house-door" style="font-size: 20px;"></i></a>
+            </li>
+            <li class="nav-item jual-sampah">
+                <a href="#" class="nav-link"><i class="bi bi-cart" style="font-size: 20px;"></i><br>Jual Sampah</a>
+            </li>
+            <li class="nav-item">
+                <a href="app/riwayat.php" class="nav-link mt-2"><img src="assets/riwayat.svg" alt=""><br>Riwayat</a>
+            </li>
+        </ul>
+    </nav>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
