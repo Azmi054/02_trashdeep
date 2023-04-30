@@ -1,0 +1,54 @@
+.body {
+  background-color: #72b88b;
+  font-family: "Montserrat";
+  font-style: normal;
+}
+
+.box-login {
+  width: 350px;
+  height: 350px;
+  background: #ffffff;
+  border-radius: 20px;
+  padding-top: 10px;
+  margin: 100px auto;
+}
+.form-control {
+  border: none;
+  border-bottom: 2px solid #42855b;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 20px;
+  width: 280px;
+  text-align: left;
+}
+.btn-submit {
+  background-color: #2ec4b6;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  padding: 10px 50px;
+  transition: all 0.3s ease-in-out;
+  background: #42855b;
+  border: 1px solid #42855b;
+  border-radius: 20px;
+}
+
+.btn-submit:hover {
+  background-color: #21867a;
+  cursor: pointer;
+}
+
+.regist {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.regist a {
+  color: #2ec4b6;
+  text-decoration: none;
+}
+
+.regist a:hover {
+  text-decoration: underline;
+}
