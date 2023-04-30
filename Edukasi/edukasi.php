@@ -14,8 +14,8 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
     />
     <title>Trasndeep</title>
-    <link rel="icon" href="assets/logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="style/edukasi.css" />
+    <link rel="icon" href="../assets/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="edukasi.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -24,27 +24,30 @@
     />
   </head>
 
-  <body>
-    <nav>
+  <body class="body">
+    <nav class="navbar navbar-edukasi">
       <div class="navbar navbar-inversen">
-          <a class="navbar-brand" href="home.php">
-            <img
-              src="assets/beranda.svg"
-              draggable="false"
-              alt="Trashdeep"
-              height="40"
-            />
-            Beranda
-          </a>
-        </div>
-    </nav>
-    <div class="container m-3">
+        <a class="text-white text-decoration-none" href="../Home/home.php">
+          <img
+            src="../assets/beranda.svg"
+            draggable="false"
+            alt="Trashdeep"
+            height="40"
+          />
+          Beranda
+        </a>
+      </div>
+  </nav>
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col mb-4">
+            <div class="container m-3">
         <h1>Yuk ikuti edukasi tentang 
           bagaimana penanganan sampah!</h1>
       </div>
+      </div>
     </div>
-    
-
+    </div>
     <div class="container mt-3">
       <div class="row">
         <div class="col mb-4">
