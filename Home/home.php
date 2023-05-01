@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -21,42 +25,32 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-  <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="home.css">
   </head>
 
   <body class="body">
-    <nav class="navbar bg-body-tertiary fixed-top">
-        <div class="container ">
-          <a class="navbar-brand " href="#">
-            <img src="../assets/logo.png" draggable="false" alt="Trashdeep"height="50">
-          </a>
-          <div class="d-flex align-items-center">
-            <a href="#" class="me-3"><i class="bi bi-person-circle fs-4"></i></a>
-            <a href="#" class="me-3"><i class="bi bi-bell fs-4"></i></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </div>
+    <nav class="navbar navbar-home">
+      <img src="../assets/name.svg" draggable="false" alt="Trashdeep" height="50">
+        <div class="container">
+          <a class="navbar-brand" href="../Profil/profil.php">
+                <div class="d-flex align-items-center">
+                    <div class="avatar">
+                        <img src="https://via.placeholder.com/60" alt="User Avatar">
+                    </div>
+                    <span class="text-truncate"><?php echo $_SESSION['username'];?></span>
+                </div>
+            </a>
+            <div class="d-flex align-items-center">
+                <a href="#" class="me-3"><i class="bi bi-bell fs-4"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
         </div>
-      </nav>
-      
-      <div class="container mt-5 pt-5">
+    </nav>
+
+
+      <div class="container pt-3">
       <div class="container">
         <div class="row">
           <div class="col mb-4">
@@ -104,3 +98,22 @@
       </div>
     </div>
     <nav class="navbar navbar-expand navbar-dark bg-utama fixed-bottom" style="background-color:#012e1d;">
+        <ul class="navbar-nav nav-justified w-100 d-flex align-items-center">
+            <li class="nav-item">
+                <a href="profil.php" class="nav-link mt-2"><i class="bi bi-house-door" style="font-size: 20px;"></i></a>
+            </li>
+            <li class="nav-item jual-sampah">
+                <a href="#" class="nav-link"><i class="bi bi-cart" style="font-size: 20px;"></i><br>Jual Sampah</a>
+            </li>
+            <li class="nav-item">
+                <a href="app/riwayat.php" class="nav-link mt-2"><img src="assets/riwayat.svg" alt=""><br>Riwayat</a>
+            </li>
+        </ul>
+    </nav>    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

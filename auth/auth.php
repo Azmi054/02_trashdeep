@@ -1,4 +1,5 @@
 <?php
+session_start();
 include 'koneksi.php';
 
 if(isset($_POST['no_telepon']) && isset($_POST['password'])) {
@@ -15,6 +16,7 @@ if(isset($_POST['no_telepon']) && isset($_POST['password'])) {
         // Jika kredensial sesuai, arahkan ke halaman utama
         $row = mysqli_fetch_assoc($result);
         $_SESSION['no_telepon'] = $row['no_telepon'];
+        $_SESSION['username'] = $row['username'];
         header("location: ../Home/home.php");
         exit();
     }
