@@ -1,0 +1,20 @@
+.my-navbar {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0,1);
+    border-radius: 31px 31px 0 0 ;
+  }
+  
+  .my-navbar .nav-item {
+    margin: 0 10px;
+  }
+  
+  .my-navbar .nav-link {
+    color:black;
+    text-align: center;
+    font-size: 12px; 
+  }
+  
+  .my-navbar .nav-link:hover {
+    color: #1aff94;
+  }

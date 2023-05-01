@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $target_dir = "../uploads/";
     $target_file = $target_dir . basename($_FILES["foto"]["name"]);
     move_uploaded_file($_FILES["foto"]["tmp_name"], $target_file);
-    header("location: ../laporan.php");
+    header("location: ../Laporan/laporan.php");
     echo "Laporan berhasil ditambahkan!";
   } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);

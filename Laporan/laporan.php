@@ -10,50 +10,57 @@
       rel="stylesheet"
     />
     <title>Trashdeep</title>
-    <link rel="icon" href="assets/logo.png" type="image/x-icon" />
+    <link rel="icon" href="../assets/logo.png" type="image/x-icon" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style/laporan.css" />
+    <link rel="stylesheet" href="laporan.css" />
+    <link rel="stylesheet" href="../navbar.css">
   </head>
 
-  <body>
-    <nav>
+  <body class="body">
+    <?php
+    include'../topnav.php'
+    ?>
+    <!-- <nav class="navbar navbar-laporan">
       <div class="navbar navbar-inversen">
-          <a class="navbar-brand" href="home.php">
-            <img
-              src="assets/beranda.svg"
-              draggable="false"
-              alt="Trashdeep"
-              height="40"
-            />
-            Beranda
-          </a>
-        </div>
-    </nav>
-    
+        <a class="text-white text-decoration-none" href="../Home/home.php">
+          <img
+            src="../assets/beranda.svg"
+            draggable="false"
+            alt="Trashdeep"
+            height="40"
+          />
+          Beranda
+        </a>
+      </div>
+  </nav> -->
 <div class="container mt-3 pt-3">
-  <form enctype="multipart/form-data">
+  <form action="../auth/proses.php" method="POST" enctype="multipart/form-data">
     <div class="form-group">
       <tabel for="lokasi">Lokasi Penumpukan Sampah</tabel>
-      <input type="text" class="form-control" id="lokasi" placeholder="Masukkan nama lokasi" required>
+      <input type="text" class="form-control" name="lokasi" id="lokasi" placeholder="Masukkan nama lokasi" required>
     </div>
     <div class="form-group">
       <label for="deskripsi">Deskripsi Penumpukan Sampah</label>
-      <textarea class="form-control" id="deskripsi" rows="3" required></textarea>
+      <textarea class="form-control" name="deskripsi" id="deskripsi" rows="3" required></textarea>
     </div>
     <div class="form-group">
     <label for="foto">Foto</label>
-    <input type="file" class="form-control" id="foto" required>
+    <input type="file" class="form-control" name="foto" id="foto" required>
     </div>
     <div class="form-group d-flex justify-content-center mt-5">
       <button type="submit" class="btn btn-primary">Kirim Laporan</button>
     </div>
   </form>
 </div>
+
+<?php
+include'../navbar.php';
+?>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
@@ -63,4 +70,3 @@
     <script src="script.js"></script>
   </body>
 </html>
-
