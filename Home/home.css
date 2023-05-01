@@ -1,4 +1,26 @@
-navbar-home{
+.navbar-home{
   background-color:  #42855B;
-  border-radius: 0px 0px,31px,31px;
+  border-radius: 0px 0px 31px 31px;
+}
+.navbar-home .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-home .navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-home .navbar-brand .avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.navbar-home .navbar-brand .avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

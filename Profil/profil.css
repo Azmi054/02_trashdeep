@@ -1,0 +1,10 @@
+.body {
+    font-family: "Montserrat", sans-serif;
+  }
+nav{
+    background-color: #42855b;
+    height: 70px;
+    border-radius: 0  0 10px 10px;
+    text-decoration: none;
+    color: white;
+  }
