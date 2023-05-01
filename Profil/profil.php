@@ -12,7 +12,7 @@
 <body class="body">
 <nav>
       <div class="navbar">
-          <a class="navbar-brand" href="home.php" style=" color : white">
+          <a class="navbar-brand" href="../Home/home.php" style=" color : white">
             <img
               src="../assets/beranda.svg"
               draggable="false"
