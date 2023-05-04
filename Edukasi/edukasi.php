@@ -17,32 +17,26 @@
     <link rel="icon" href="../assets/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="edukasi.css" />
     <link rel="stylesheet" href="../navbar.css">
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="edukasi.css" />
+    <link rel="stylesheet" href="../navbar.css">
   </head>
 
   <body class="body">
-    <nav class="navbar navbar-edukasi">
-      <div class="navbar navbar-inversen">
-        <a class="text-white text-decoration-none" href="../Home/home.php">
-          <img
-            src="../assets/beranda.svg"
-            draggable="false"
-            alt="Trashdeep"
-            height="40"
-          />
-          Beranda
-        </a>
-      </div>
-  </nav>
-  <div class="container mt-3">
+  <?php
+    include'../topnav.php'
+    ?>
+  <div class="container mt-4">
     <div class="row">
-      <div class="col mb-4">
-            <div class="container m-3">
+      <div class="col mt-3">
+            <div class="container mt-5">
         <h1>Yuk ikuti edukasi tentang 
           bagaimana penanganan sampah!</h1>
       </div>
@@ -56,7 +50,7 @@
               <h5 class="card-title m-3 ">Tips & Tricks</h5>
               <div class="row no-gutters">
                 <div class="p-4 text-end">
-                  <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                  <a href="trik.php" class="btn btn-primary">Baca Selengkapnya</a>
                 </div>
               </div>
             </div>
@@ -69,7 +63,7 @@
               <h5 class="card-title m-3">Tutorial</h5>
               <div class="row no-gutters">
                 <div class="p-4 text-end">
-                  <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                  <a href="tutorial.php" class="btn btn-primary">Baca Selengkapnya</a>
                 </div>
               </div>
             </div>
