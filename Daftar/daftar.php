@@ -55,7 +55,7 @@
         </div>
 
         <div class="d-flex justify-content-center">
-            <button type="submit" class="btn-submit m-2">Daftar</button>
+            <button type="submit" class="btn-submit m-2" style="color: white;">Daftar</button>
         </div>
         <div class="col-sm-12 pt-12 regist text-center">
             <a>Sudah Punya Akun?</a><a href="../Login/login.php"> Masuk</a>

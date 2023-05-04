@@ -6,4 +6,4 @@ const togglePassword = document.querySelector('.btn-toggle-password');
         password.setAttribute('type', type);
         this.querySelector('i').classList.toggle('fa-eye-slash');
         this.querySelector('i').classList.toggle('fa-eye');
-    });
+    }); 

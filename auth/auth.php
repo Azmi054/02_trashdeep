@@ -17,6 +17,7 @@ if(isset($_POST['no_telepon']) && isset($_POST['password'])) {
         $row = mysqli_fetch_assoc($result);
         $_SESSION['no_telepon'] = $row['no_telepon'];
         $_SESSION['username'] = $row['username'];
+        $_SESSION['id_masyarakat'] = $row['id_masyarakat'];
         header("location: ../Home/home.php");
         exit();
     }

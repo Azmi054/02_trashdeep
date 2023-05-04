@@ -37,30 +37,29 @@ session_start();
                     <div class="avatar">
                         <img src="https://via.placeholder.com/60" alt="User Avatar">
                     </div>
-                    <span class="text-truncate text-white"><?php echo $_SESSION['username'];?></span>
+                    <span class="text-truncate text-black"><?php echo $_SESSION['username'];?></span>
                 </div>
             </a>
-            <div class="d-flex align-items-center text-white">
-                <a href="#" class="mt-5 me-2 text-white"><i class="bi bi-bell fs-4"></i></a>
-                <a href="#" class="mt-5 me-2 text-white"><i class="bi bi-list fs-4"></i></i></a>               
+            <div class="d-flex align-items-center">
+                <a href="#" class="mt-5 me-2 text-black"><i class="bi bi-bell fs-4"></i></a>             
             </div>
         </div>
     </nav>
 
 
 <div class="container pt-3 card-columns">
-  <div class="container">
-    <div class="row">
-      <div class="col mb-4 mb-2">
+  <div class="container" >
+    <div class="row" >
+      <div class="col mb-3">
         <a>
-          <div class="card">
+          <div class="card" style="background-color: #82D19B;">
             <div class="d-flex align-items-center">
-              <h5 class="card-title flex-grow-1 fs-5 mb-2">Lapor Sampah</h5>
+              <h5 class="card-title flex-grow-1 fs-5 mb-2 mx-2">Lapor Sampah</h5>
               <img src="../assets/laporan.svg" alt="gambar" class="ml-auto img-fluid">
             </div>
             <div class="row no-gutters">
-              <div class="mx-2 tombol-laporan d-flex align-items-center justify-content-center">
-                <a href="../Laporan/laporan.php" class="btn btn-primary btn-sm">Buat Laporan</a>
+              <div class="mx-2 d-flex  mb-2">
+                <a href="../Laporan/laporan.php" class="btn btn-sm" style="background-color: white;">Buat Laporan</a>
               </div>
             </div>
           </div>
@@ -68,28 +67,28 @@ session_start();
       </div>
     </div>
       <div class="row">
-        <div class="col mb-4">
+        <div class="col mb-3">
           <a href="../Edukasi/edukasi.php" style="text-decoration:none">
-            <div class="card">
-              <h5 class="card-title m-3 text-center fs-5">Edukasi</h5>
+            <div class="card" style="background-color: #82D19B;">
+              <h5 class="card-title m-3 fs-5" style="color: black;">Edukasi</h5>
             </div>
           </a>
         </div>
       </div>
     <div class="row">
-      <div class="col mb-4">
+      <div class="col mb-3">
         <a href="index.php" style="text-decoration:none">
-          <div class="card">
-            <h5 class="card-title m-3 text-center fs-5">Informasi</h5>
+          <div class="card" style="background-color: #82D19B;">
+            <h5 class="card-title m-3 fs-5" style="color: black;">Informasi</h5>
           </div>
         </a>
       </div>
     </div>
     <div class="row">
-      <div class="col mb-4">
-        <a href="index.php" style="text-decoration:none">
-          <div class="card">
-            <h5 class="card-title m-3 fs-5">Lokasi Terdekat pembuangan Sampah</h5>
+      <div class="col mb-3">
+        <a href="../Lokasi/lokasi.php" style="text-decoration:none">
+          <div class="card" style="background-color: #82D19B;">
+            <h5 class="card-title m-3 fs-5" style="color: black;">Lokasi Terdekat pembuangan Sampah</h5>
           </div>
         </a>
       </div>

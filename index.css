@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(rgba(55, 146, 55, 0), #42855b);
+  background-color: #42855b;
   font-family: "IBM Plex Sans", sans-serif;
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
@@ -24,6 +24,10 @@ body {
   border: 3px solid #42855b;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 15px;
+}
+.index{
+  background-color: aliceblue;
+  padding: 10px ;
 }
 
 /*.petugas {
