@@ -64,7 +64,7 @@ session_start();
       </div>
       <div class="card-footer">
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-          <button class="btn btn-secondary me-md-2" type="button">Pengaturan</button>
+          <a href="peraturan.php" class="btn btn-secondary" type="button">Peraturan</a>
           <button class="btn btn-secondary" type="button">FAQ</button>
           <a href="../auth/logout.php" class="btn btn-danger" type="button">Keluar</a>
         </div>

@@ -30,9 +30,13 @@ session_start();
 
   <body class="body">
     <nav class="navbar navbar-home">
+      <img src="../assets/name.svg" draggable="false" alt="Trashdeep" height="40">
+        <div class="container">
+          <a class="navbar-brand" href="../Profil/profil.php">
       <div class="container">
         <a class="navbar-brand">
             <img src="../assets/name.svg" draggable="false" alt="Trashdeep" height="50">
+
                 <div class="d-flex align-items-center">
                     <div class="avatar">
                         <img src="https://via.placeholder.com/60" alt="User Avatar">
@@ -62,6 +66,14 @@ session_start();
                 <a href="../Laporan/laporan.php" class="btn btn-sm" style="background-color: white;">Buat Laporan</a>
               </div>
             </div>
+            </a>
+          </div>
+        </div>
+      <div class="row">
+        <div class="col mb-4">
+        <a href="../Edukasi/edukasi.php" style ="text-decoration :none">
+          <div class="card">
+            <h5 class="card-title m-3">Edukasi</h5>
           </div>
         </a>
       </div>

@@ -7,4 +7,3 @@ $_SESSION['session_no_telepon'] = "";
 session_destroy();
 header("location:../Login/login.php")
 ?>
-

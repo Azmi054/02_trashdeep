@@ -75,7 +75,6 @@ include'../topnav.php'
     </div>
   </div>
 </div>
-
 <?php
 include'../navbar.php';
 ?>
