@@ -1,13 +1,14 @@
-<nav class="navbar navbar-laporan">
-      <div class="navbar navbar-inversen">
-        <a class="text-white text-decoration-none" href="../Home/home.php">
-          <img
-            src="../assets/beranda.svg"
-            draggable="false"
-            alt="Trashdeep"
-            height="40"
-          />
-          Beranda
-        </a>
-      </div>
-  </nav>
+
+  <nav class="navbar navbar-php fixed-top">
+      <div class="navbar">
+          <a class="navbar-brand" href="../Home/home.php" style=" color : white">
+            <img
+              src="../assets/beranda.svg"
+              draggable="false"
+              alt="Trashdeep"
+              height="40"
+            />
+            Beranda
+          </a>
+        </div>
+    </nav>

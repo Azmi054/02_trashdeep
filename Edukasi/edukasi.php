@@ -15,9 +15,6 @@
     />
     <title>Trasndeep</title>
     <link rel="icon" href="../assets/logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="edukasi.css" />
-    <link rel="stylesheet" href="../navbar.css">
-
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -29,11 +26,13 @@
     <link rel="stylesheet" href="../navbar.css">
   </head>
 
-  <body class="body">
+  <body>
   <?php
     include'../topnav.php'
     ?>
-  <div class="container mt-4">
+    
+  <div class="container mt-4 body">
+  <body class="body">
     <div class="row">
       <div class="col mt-3">
             <div class="container mt-5">
@@ -46,11 +45,11 @@
     <div class="container mt-3">
       <div class="row">
         <div class="col mb-4">
-            <div class="card">
+            <div class="card" style="background-color: #82D19B;">
               <h5 class="card-title m-3 ">Tips & Tricks</h5>
               <div class="row no-gutters">
                 <div class="p-4 text-end">
-                  <a href="trik.php" class="btn btn-primary">Baca Selengkapnya</a>
+                  <a href="trik.php" class="btn" style="background-color: white;">Baca Selengkapnya</a>
                 </div>
               </div>
             </div>
@@ -59,11 +58,11 @@
       </div>
       <div class="row">
         <div class="col mb-4">
-            <div class="card ">
+            <div class="card" style="background-color: #82D19B;">
               <h5 class="card-title m-3">Tutorial</h5>
               <div class="row no-gutters">
                 <div class="p-4 text-end">
-                  <a href="tutorial.php" class="btn btn-primary">Baca Selengkapnya</a>
+                  <a href="tutorial.php" class="btn" style="background-color: white;">Baca Selengkapnya</a>
                 </div>
               </div>
             </div>

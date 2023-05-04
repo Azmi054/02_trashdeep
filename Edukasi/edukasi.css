@@ -1,7 +1,11 @@
 /* Navbar */
 .navbar-edukasi {
-  background-color: #42855b;
+  background-color: #42855B;
   border-radius: 0px 0px 31px 31px;
   color: white;
   text-decoration: none;
+}
+
+.body{
+  font-family: "Montserrat", sans-serif;
 }

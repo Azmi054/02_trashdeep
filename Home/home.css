@@ -1,17 +1,16 @@
-.navbar-home{
-  background-color:  #42855B;
+.navbar-home {
+  background-color: #42855B;
   border-radius: 0px 0px 31px 31px;
 }
 .avatar img {
   border-radius: 50%;
   margin-right: 10px;
 }
-
 .my-navbar {
   padding: 10px;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0,1);
-  border-radius: 31px 31px 0 0 ;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 1);
+  border-radius: 31px 31px 0 0;
 }
 
 .my-navbar .nav-item {
@@ -19,21 +18,15 @@
 }
 
 .my-navbar .nav-link {
-  color:black;
+  color: black;
   text-align: center;
-  font-size: 12px; 
+  font-size: 12px;
 }
-
-.my-navbar .nav-link:hover {
-  color: #1aff94;
+.card:nth-child(2) {
+  background-color: #050505;
 }
-
-.card {
-  background-color:#1aff94;
-  border: 1px solid #1aff94;
-  border-radius: 10px;
-  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s;
+.card:nth-child(1) {
+  background-color: #080808;
 }
 
 .card:hover {
@@ -50,8 +43,3 @@
   background-color: #007bff;
   border-color: #007bff;
 }
-.btn-primary:hover {
-  background-color: #0069d9;
-  border-color: #0062cc;
-}
-

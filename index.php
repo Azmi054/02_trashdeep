@@ -26,7 +26,7 @@
         <p class="px-5">Hai, Selamat Datang di Aplikasi Trashdeep<p></p></p>
     </div>
 
-    <div class="tombol text-center">
+    <div class="tombol text-center  index">
   
         <a href="Login/login.php"><button type="button" class="btn-user">User</button></a><br>
         <a href="daftar/daftar.php"><button type="button" class="btn-admin">Admin</button></a><br>
