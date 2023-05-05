@@ -1,4 +1,5 @@
 .body {
+<<<<<<< Updated upstream
   font-family: "Montserrat", sans-serif;
 }
 nav {
@@ -38,3 +39,15 @@ nav {
   height: 150px;
   object-fit: cover;
 }
+=======
+    font-family: "Montserrat", sans-serif;
+  }
+nav{
+    background-color: #42855b;
+    height: 70px;
+    border-radius: 0  0 10px 10px;
+    text-decoration: none;
+    color: white;
+  }
+  
+>>>>>>> Stashed changes
