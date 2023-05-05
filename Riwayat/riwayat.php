@@ -28,7 +28,7 @@ include'../auth/koneksi.php';
 include'../topnav.php';
 ?>
 
-<div class="container mt-5 pt-5">
+<div class="container mt-5 pt-4" style="margin-bottom: 5rem;" >
   <div class="row">
   <?php
 // Query untuk mengambil data dari tabel tb_laporan

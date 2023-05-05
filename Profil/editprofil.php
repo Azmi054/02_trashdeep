@@ -1,6 +1,7 @@
 <?php
 session_start();
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,7 +27,7 @@ session_start();
         </div>
     </nav>
 
-    <div class="container my-5">
+    <div class="container">
     <div class="card">
       <div class="card-header">
         <h3 class="text-center">Profil Saya</h3>
@@ -45,7 +46,7 @@ session_start();
             </form>
           </div>
           <div class="col-md-8">
-            <form>
+            <form action="../auth/update_data_masyarakat.php" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
               <div class="mb-3">
                 <label for="name" class="form-label">Nama Lengkap</label>
                 <input type="text" class="form-control" id="name" value="<?php echo $_SESSION['username'];?>">
@@ -55,16 +56,15 @@ session_start();
                 <input type="text" class="form-control" id="phone" value="<?php echo $_SESSION['no_telepon'];?>">
               </div>
               <div class="mb-3">
-                <label for="password" class="form-label">Password Lama</label>
-                <input type="text" class="form-control" id="name" placeholder="Masukkan Password Lama">
+                <label for="password_lama" class="form-label">Password Lama</label>
+                <input type="password" class="form-control" id="password_lama"  name="password_lama" placeholder="Masukkan Password lama">
               </div>
               <div class="mb-3">
-                <label for="password" class="form-label">Password Baru</label>
-                <input type="text" class="form-control" id="name" placeholder="Masukkan Password Baru">
+                <label for="password_baru" class="form-label">Password Baru</label>
+                <input type="password" class="form-control" id="password_baru" name="password_baru" placeholder="Masukkan Password Baru">
               </div>
-            </form>
-            <div class="text-center">
-              <button type="submit" class="btn btn-primary mb-3">simpan</button>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary mb-3" name="submit">Submit</button>
             </div>
           </div>
         </div>
