@@ -25,7 +25,7 @@
 include'../topnav.php'
 ?>
 
-<div class="container-fluid">
+<div class="container-fluid mb-5 pb-5">
   <div class="row justify-content-center mb-3">
     <div class="col-12 col-md-8">
       <div class="card">

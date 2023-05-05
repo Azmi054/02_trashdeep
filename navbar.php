@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand navbar-dark bg-utama fixed-bottom my-navbar">
+<nav class="navbar navbar-expand navbar-dark bg-white fixed-bottom my-navbar">
     <ul class="navbar-nav nav-justified w-100 d-flex align-items-center">
         <li class="nav-item">
             <a href="../Home/home.php" class="nav-link"><img src="../assets/home.svg" alt=""></i><br>Home</a>
