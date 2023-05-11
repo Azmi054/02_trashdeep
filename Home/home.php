@@ -77,15 +77,6 @@ session_start();
       </div>
     <div class="row">
       <div class="col mb-3">
-        <a href="index.php" style="text-decoration:none">
-          <div class="card" style="background-color: #82D19B;">
-            <h5 class="card-title m-3 fs-5" style="color: black;">Informasi</h5>
-          </div>
-        </a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col mb-3">
         <a href="../Lokasi/lokasi.php" style="text-decoration:none">
           <div class="card" style="background-color: #82D19B;">
             <h5 class="card-title m-3 fs-5" style="color: black;">Lokasi Terdekat pembuangan Sampah</h5>

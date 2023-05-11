@@ -31,7 +31,6 @@ session_start();
               alt="Trashdeep"
               height="40"
             />
-            Beranda
           </a>
         </div>
     </nav>
@@ -72,7 +71,7 @@ session_start();
       <div class="card-footer mb-2">
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
           <a href="peraturan.php" class="btn btn-secondary" type="button">Peraturan</a>
-          <button class="btn btn-secondary" type="button">FAQ</button>
+          <a href="bantuan.php" class="btn btn-secondary" type="button">Bantuan</a>
           <a href="../auth/logout.php" class="btn btn-danger" type="button">Keluar</a>
         </div>
       </div>
