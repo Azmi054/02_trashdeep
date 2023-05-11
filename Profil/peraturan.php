@@ -22,7 +22,6 @@
             />
           </a>
                 <div class="text-end mt-2 mx-3" style="color:white">
-                    <p>Peraturan</p>
                 </div>
                 
             </div>
