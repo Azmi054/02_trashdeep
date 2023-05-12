@@ -8,7 +8,6 @@
               alt="Trashdeep"
               height="40"
             />
-            Beranda
           </a>
         </div>
     </nav>
