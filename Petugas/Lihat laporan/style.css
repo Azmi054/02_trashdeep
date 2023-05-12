@@ -1,0 +1,10 @@
+.card{
+    background-color: #82D19B;
+    border-radius: 20px 20px 20px 20px ;
+}
+
+.btn-outline-light{
+    background-color: white;
+    color: black;
+    border-radius:20px 20px 20px 20px  ;
+}
