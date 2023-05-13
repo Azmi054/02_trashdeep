@@ -14,7 +14,7 @@ session_start();
 
 
 <body class="body">
-<nav>
+<nav class="navbar navbar-php fixed-top">
       <div class="navbar">
           <a class="navbar-brand" href="profil.php" style=" color : white">
             <img

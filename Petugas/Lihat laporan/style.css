@@ -1,10 +1,52 @@
-.card{
-    background-color: #82D19B;
-    border-radius: 20px 20px 20px 20px ;
+.card {
+  background-color: #82d19b;
+  border-radius: 20px 20px 20px 20px;
 }
 
-.btn-outline-light{
-    background-color: white;
-    color: black;
-    border-radius:20px 20px 20px 20px  ;
+.btn-outline-light {
+  background-color: white;
+  color: black;
+  border-radius: 20px 20px 20px 20px;
+}
+
+/* Detail laporan */
+.card-img-top {
+  margin: 20px auto;
+  display: block;
+  max-width: 350px;
+}
+.form-group {
+  margin: 20px 0;
+}
+
+.form-group2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+label {
+  flex-basis: 4%;
+  display: block;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+select {
+  flex-basis: 25%;
+  margin-left: 5px;
+  margin-right: auto;
+}
+
+textarea {
+  height: 100px;
+}
+
+.tmbl {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 20px;
 }

@@ -1,9 +1,8 @@
-
-  <nav class="navbar navbar-php fixed-top">
+<nav class="navbar navbar-php fixed-top">
       <div class="navbar">
-          <a class="navbar-brand" href="../Home/home.php" style=" color : white">
+          <a class="navbar-brand" href="Home petugas/home.php" style=" color : white">
             <img
-              src="../assets/beranda.svg"
+              src="../../assets/beranda.svg"
               draggable="false"
               alt="Trashdeep"
               height="40"
