@@ -48,7 +48,6 @@ include '../../auth/koneksi.php';
           // Mengambil jumlah data laporan
           $row_count = mysqli_fetch_assoc($result);
           $total_laporan = $row_count['id'];
-
           // Jumlah data yang ingin ditampilkan per halaman
           $data_per_halaman = 100;
 
@@ -103,7 +102,7 @@ include '../../auth/koneksi.php';
               ?>
       </div>
     </div>
-    
+   
 
     <?php
     include '../navbar.php';

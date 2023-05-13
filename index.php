@@ -27,7 +27,6 @@
     </div>
 
     <div class="tombol text-center  index">
-  
         <a href="Login/login.php"><button type="button" class="btn-user">User</button></a><br>
         <a href="Petugas/Login petugas/login.php"><button type="button" class="btn-admin">Admin</button></a><br>
     </div>
