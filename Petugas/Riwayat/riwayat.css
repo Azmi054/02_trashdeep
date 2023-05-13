@@ -1,0 +1,12 @@
+.card {
+  background-color: #82D19B;
+  width: 400px;
+}
+
+.card-title{
+  color: black;
+}
+.card-body{
+  color: black;
+  text-align: center;
+}

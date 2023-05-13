@@ -20,9 +20,7 @@ session_start();
     }
   </style>
 </head>
-
-<body class="body">
-<nav>
+<nav class="navbar navbar-php fixed-top">
       <div class="navbar">
           <a class="navbar-brand" href="../Home/home.php" style=" color : white">
             <img
@@ -35,7 +33,8 @@ session_start();
         </div>
     </nav>
 
-  <div class="container my-2">
+<body class="body">
+  <div class="container mt-5 pt-5">
      <div class="col-md-4 text-center"> 
             <img src="https://via.placeholder.com/150" class="img-thumbnail" alt="Foto Profil">
      </div>

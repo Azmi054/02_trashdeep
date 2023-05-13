@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
-            <a class="navbar-brand" href="profil.php" style=" color : white">
+<nav class="navbar navbar-php fixed-top">
+      <div class="navbar">
+          <a class="navbar-brand" href="profil.php" style=" color : white">
             <img
               src="../assets/beranda.svg"
               draggable="false"
@@ -21,12 +21,8 @@
               height="40"
             />
           </a>
-                <div class="text-end mt-2 mx-3" style="color:white">
-                </div>
-                
-            </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
         <div class="container mt-3">
             <p class="tebal">Yuk ketahui beberapa peraturan yang ada pada aplikasi ini!.</p>
         </div>

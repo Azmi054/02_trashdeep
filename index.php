@@ -29,7 +29,7 @@
     <div class="tombol text-center  index">
   
         <a href="Login/login.php"><button type="button" class="btn-user">User</button></a><br>
-        <a href="daftar/daftar.php"><button type="button" class="btn-admin">Admin</button></a><br>
+        <a href="Petugas/Login petugas/login.php"><button type="button" class="btn-admin">Admin</button></a><br>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
