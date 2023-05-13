@@ -30,13 +30,8 @@
   <?php
     include'../topnav.php'
     ?>
-<<<<<<< main
-    
-  <div class="container mt-4 body">
-  <body class="body">
-=======
+
   <div class="container mt-4 body" >
->>>>>>> edukasi
     <div class="row">
       <div class="col mt-3">
             <div class="container mt-5">
